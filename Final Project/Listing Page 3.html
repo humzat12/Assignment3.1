@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Prime Properties</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Student Name: Humza Tareen, Student id: 301272082 */
+
+
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+/* Style Table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #045847;
+  color: rgb(6, 9, 1);
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(22, 16, 16);
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change colour when hovoring */
+.navbar a:hover {
+  background-color: rgb(36, 9, 155);
+  color: rgb(79, 4, 4);
+}
+
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="prime-logo-svg-vector.svg" style="width:200px;">
+</div>
+
+<div class="navbar">
+    <a href="HomePage.html">Home</a>
+    <a href="Listing Page 1.html">Listing Page 1</a>
+    <a href="Listing Page 2.html">Listing Page 2</a>
+    <a href="Listing Page 3.html">Listing Page 3</a>
+    <a href="Available Properties.html">Available Properties for Sale</a>
+    <a href="Contact Form.html">Contact Us</a>
+    <a href="Site Map and Credits.html">Site Map and Credits</a>
+  </div>
+
+
+      
+   
+    
+    <table>
+      <tr>
+        <th>Property</th>
+        <th>Description </th>
+        <th>Image </th>
+        <th> Price</th>
+      </tr>
+      <tr>
+        <td>123 Main street </td>
+        <td>
+            <ul>
+            <li>3 bedrooms</li>
+            <li>2 bathrooms</li>
+            <li>Open floorplan</li>
+            <li>Updated kitchen</li>
+            <li>Large backyard with deck and patio</li>
+            </ul>
+        </td>
+        <td>  <img src="brewster-mcleod-architects-1486154143.jpg" style="width:200px; height:200px;"></td>
+        <td> $500,000</td>
+      </tr>
+      <tr>
+        <th>Property</th>
+        <th>Description </th>
+        <th>Image </th>
+        <th> Price</th>
+      </tr>
+      <tr>
+        <td>123 Pain street </td>
+        <td>
+            <ul>
+                <li>3 bedrooms</li>
+                <li>2.5 bathrooms</li>
+                <li>Gourmet kitchen</li>
+                <li>Private terrace with city views</li>
+                <li>Located in the heart of the city</li>
+              </ul>
+        </td>
+        <td>  <img src="download.jfif" style="width:200px; height:200px;"></td>
+        <td> $200,000</td>
+      </tr>
+      <tr>
+        <th>Property</th>
+        <th>Description </th>
+        <th>Image </th>
+        <th> Price</th>
+      </tr>
+      <tr>
+        <td>123 Grain street </td>
+        <td>
+            <ul>
+            <li>3 bedrooms</li>
+            <li>2 bathrooms</li>
+            <li>Open floorplan</li>
+            <li>Updated kitchen</li>
+            <li>Large backyard with deck and patio</li>
+            </ul>
+        </td>
+        <td>  <img src="download (1).jfif" style="width:200px; height:200px;"></td>
+        <td> $800,000</td>
+      </tr>
+     
+    </table>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>

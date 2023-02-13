@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Prime Properties</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Student Name: Humza Tareen, Student id: 301272082 */
+
+
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+/* Style Table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #045847;
+  color: rgb(6, 9, 1);
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(22, 16, 16);
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change colour when hovoring */
+.navbar a:hover {
+  background-color: rgb(36, 9, 155);
+  color: rgb(79, 4, 4);
+}
+
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="prime-logo-svg-vector.svg" style="width:200px;">
+</div>
+
+<div class="navbar">
+  <a href="HomePage.html">Home</a>
+  <a href="Listing Page 1.html">Listing Page 1</a>
+  <a href="Listing Page 2.html">Listing Page 2</a>
+  <a href="Listing Page 3.html">Listing Page 3</a>
+  <a href="Available Properties.html">Available Properties for Sale</a>
+  <a href="Contact Form.html">Contact Us</a>
+  <a href="Site Map and Credits">Site Map and Credits</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>PRIME PROPERTIES</h2>
+    <img src="successful-real-estate-agent-suit-260nw-1436511680.webp" style="width:300px;height:300px;">
+    <h1> Our Mission </h1>
+    <p>At Prime Properties, we are dedicated to providing exceptional service and support to our clients as they navigate the real estate market. We strive to deliver personalized solutions that help our clients achieve their goals and find the perfect home or investment property. With our team of experienced agents and a commitment to integrity, we aim to be the go-to agency for all of your real estate needs. </p>
+    <div class="customer-feedback">
+        <h2>Customer Feedback</h2>
+        <div class="feedback-item">
+          <h3>Jane Doe</h3>
+          <p>I had a great experience working with Prime Properties. Their agents were knowledgeable and helped me find the perfect home. I would highly recommend them to anyone looking for a new property.</p>
+        </div>
+        <div class="feedback-item">
+          <h3>John Smith</h3>
+          <p>I recently sold my home with the help of Prime Properties and couldn't be happier with the result. They handled everything from start to finish and made the process stress-free. I would definitely use them again in the future.</p>
+        </div>
+      </div>
+      
+    <div class="feedback-section">
+        <h2>Leave Feedback</h2>
+        <form>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email"><br><br>
+          <label for="feedback">Feedback:</label><br>
+          <textarea id="feedback" name="feedback"></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form> 
+      </div>
+      
+
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="NorthWest Territories" href="https://www.gamestop.ca/Home/Index">
+      <area shape="rect" coords="290,172,333,250" alt="Nunavut " href="https://www.gamestop.ca/Home/Index">
+      <area shape="rect" coords="337,300,44" alt="Yukon" href="https://www.gamestop.ca/Home/Index">
+    </map>
+    
+   
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
